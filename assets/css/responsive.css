@@ -1,0 +1,618 @@
+@media only screen and (min-width: 480px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hide-sm {
+    display: none;
+  }
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .breadCreamp .breadTitle p {
+    width: 50%;
+  }
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .mainSlider .mySlide .sliderText {
+    width: 42%;
+  }
+  .appSlide .cover {
+    top: -47px;
+    left: 56%;
+  }
+  .appSlide .cover img {
+    width: 60% !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .exp .expImg {
+    padding: 0 15px 0 15px;
+}
+  .ourPurpose .gridOur {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .megaMenuBox .indCard a .indItem {
+    place-items: center;
+    display: flex;
+  }
+  .megaMenuBox .indCard a .indItem figure {
+    margin-right: 10px;
+    width: auto;
+  }
+  .megaMenuBox .indCard a .indItem figure img {
+    width: 20px;
+  }
+  .megaMenuBox .indCard a .indItem p {
+    font-weight: 400;
+    line-height: normal;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .subMenu:hover > .megaMenu {
+    top: 20%;
+  }
+  .subMenu > a {
+    border-bottom: 1px dashed var(--main-color) !important;
+  }
+  .openMenu {
+    display: block !important;
+  }
+  .myHeader .myNav {
+    background: var(--grad);
+    width: 100%;
+    z-index: -99;
+    height: 100%;
+    position: relative;
+  }
+  .myHeader .myNav::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -999999999;
+    background: var(--mainBg-color);
+  }
+  .myHeader .myNav ul li {
+    padding: 0px;
+  }
+  .myHeader .myNav ul li a {
+    text-transform: uppercase;
+    padding: 5px 0px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .myHeader .myNav ul {
+    margin: 5px 5px 15px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .myHeader {
+  }
+  .myHeader .myNav .closeMe .hideMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 19px;
+    color: var(--main-color);
+    text-decoration: none;
+    background: none;
+    width: fit-content;
+    border: none;
+  }
+  .myHeader .myNav .closeMe {
+    left: 0px;
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .myHeader .myNav {
+    padding: 15px;
+    visibility: hidden;
+    position: fixed;
+    background-size: cover;
+    top: 0px;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    display: block;
+    background-repeat: no-repeat;
+  }
+  .myHeader .myNav.active {
+    visibility: visible;
+    opacity: 1;
+    right: 0px;
+    z-index: 2147483647;
+  }
+  .myHeader .myNav .myBtn {
+    border-radius: 3px;
+    margin: 0px;
+    width: fit-content;
+    display: flex;
+    place-items: center;
+    padding: 0px 20px;
+  }
+  .appSlide .cover {
+    top: -44px;
+    left: 46%;
+  }
+  .appSlide .cover img {
+    width: 58%;
+  }
+  .webDevelop .DevelopMent h3 {
+    font-size: 20px !important;
+  }
+  .webDevelop .DevelopMent ul li a {
+    font-size: 11px !important;
+  }
+  .dFlex {
+    flex-direction: column;
+  }
+  .aboutUs .abtImg {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .gettingSec .gettingGrid{grid-template-columns: repeat(1, 2fr);}
+  .seamLes .seamlesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+  }
+  .flexDiv {
+    display: block;
+  }
+  .mainSlider .mySlide figure {
+    position: relative;
+  }
+  .mainSlider .mySlide figure::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.24);
+  }
+  .aboutUs .abtImg figure img {
+    width: 100%;
+  }
+  .mainSlider .mySlide .sliderText {
+    width: 100%;
+    left: 0px;
+    top: 13px;
+    height: 100%;
+    background: none;
+  }
+  .mainSlider .mySlide figure img {
+    filter: brightness(0.5);
+    width: 100%;
+    height: 400px;
+  }
+  .productSec .prodGrid {
+    grid-template-columns: 1fr;
+  }
+  .servSection .servGrid {
+    grid-template-columns: 1fr;
+  }
+  .servSection .servGrid .servItem {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .servSection .servGrid .servItem .servText {
+    padding: 15px;
+  }
+  .webDevelop .DevelopMent h3 {
+    font-size: 28px !important;
+  }
+  .webDevelop .DevelopMent ul li a {
+    font-size: 14px !important;
+  }
+  .projectGallery .portfolioGallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .whoAre #tabs {
+    flex-direction: column;
+  }
+  .whoAre #tabs ul {
+    width: 20%;
+    background: none;
+    border: none;
+    margin-right: 20px;
+  }
+  .mainSlider .mySlide h3 {
+    font-size: 3em;
+  }
+  .mainHeading p {
+    width: 90%;
+    line-height: 1.6;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 576px) {
+
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .topBar .social li {
+    color: var(--scondary-color);
+  }
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .megaMenu {
+    left: 0px;
+    z-index: 9999;
+    transition: all 0.3s ease 0s;
+    padding: 22px 0px 0px;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    top: 100%;
+    margin: 0px;
+    position: absolute;
+  }
+  .subMenu:hover > .megaMenu {
+    opacity: 1;
+    visibility: visible;
+    top: 75%;
+  }
+  .subMenu a {
+    position: relative;
+  }
+  .subMenu > a::after {
+    transform: rotate(88deg);
+    position: absolute;
+    right: 0px;
+    content: ">";
+    font-family: cursive;
+    top: 16px;
+  }
+  .megaMenuBox {
+    border-radius: 5px;
+    background: var(--image);
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+  .megaMenuBox::before {
+    border-radius: 5px;
+    height: calc(100% - 22px);
+    background: rgba(255, 201, 71, 0.85);
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    content: "";
+    width: 100%;
+  }
+  .megaMenuBox .indCard {
+    padding: 15px !important;
+  }
+  .megaMenuBox .indCard a {
+  }
+  .megaMenuBox .indCard a .indItem {
+  }
+  .megaMenuBox .indCard a .indItem figure {
+  }
+  .megaMenuBox .indCard a .indItem figure img {
+    width: 60px;
+  }
+  .openMenu {
+    display: none;
+  }
+  .closeMe {
+    display: none;
+  }
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .photoGallery .itembox {
+  }
+  .photoGallery {
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .exp .expGrid {
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .megaMenuBox {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 5px;
+  }
+  .megaMenuBox .indCard {
+    padding: 7px;
+  }
+  .dFlex {
+    flex-direction: column;
+  }
+  .aboutUs .abtImg {
+    margin-bottom: 50px;
+  }
+  .megaMenuBox .indCard a {
+    padding: 2px !important;
+    margin: 0px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .logiWork .gridGif{grid-template-columns: repeat(1, 2fr);padding: 0 15px 0 15px;}
+  .relatedWork .ourOfficeGride{grid-template-columns: repeat(1, 2fr);padding: 0 15px 0 15px;}
+  .subMenu > a::after {
+    top: 11px;
+  }
+  .subMenu:hover > .megaMenu {
+    top: 18%;
+    padding: 0px;
+  }
+  .megaMenuBox {
+  }
+  .appSlide .cover {
+    top: -46px;
+    left: 46%;
+  }
+  .appSlide .cover img {
+    width: 58% !important;
+  }
+  .wrapper .twobgSet {
+    width: 48%;
+  }
+  .wrapper .onebgSet {
+    width: 50%;
+    left: 0px;
+  }
+  .myFooter .subFooter {
+    margin-bottom: 70px;
+  }
+  .myFooter .info {
+    margin-bottom: 30px;
+  }
+  .myFooter .features {
+    margin-bottom: 30px;
+  }
+  .myFooter .itWill .textBanner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .myFooter .itWill .textBanner h5 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .topBar .topBarUl li {
+    margin-right: 7px;
+    background: var(--main-color);
+    padding: 7px 10px;
+    border-radius: 50px;
+  }
+  .topBar .topBarUl li figure img {
+    filter: brightness(0) invert(1);
+  }
+  .topBar .topBarUl li a {
+    font-size: 12px;
+  }
+  .topBarContent {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .hide-xs {
+    display: none;
+  }
+  .whoAre #tabs {
+    flex-direction: column;
+  }
+  .whoAre #tabs ul {
+    display: flex;
+    width: auto;
+    margin: 0px 15px;
+  }
+  .mainSlider .mySlide h3 {
+    font-size: 2em;
+  }
+  .mainHeading p {
+    width: 90%;
+    line-height: 1.6;
+  }
+  .mainSlider {
+    height: auto;
+  }
+  .eventGallery ul li {
+    padding: 5px 10px;
+  }
+  .tabContent {
+    margin: 0px 15px;
+    width: auto !important;
+  }
+  .ui-tabs-vertical .ui-tabs-nav li a {
+    text-align: center;
+  }
+  .topBar {
+    height: 0px;
+  }
+  .topBar .social {
+    color: var(--scondary-color);
+    font-size: 12px;
+    background: var(--main-color);
+    padding: 3px 10px;
+    border-radius: 50px;
+  }
+  .topBar .social li figure a {
+    filter: brightness(0) invert(1);
+    padding: 7px 8px;
+  }
+  .mainSlider .mySlide h4 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .mainSlider .mySlide p {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .eventGallery {
+    display: block;
+  }
+  .industryWe .indCard {
+  }
+  .myHeader .myNav ul li {
+    padding: 0px;
+  }
+  .myHeader .myNav ul li a {
+  }
+  .myHeader .myNav {
+  }
+  .megaMenuBox {
+  }
+  .appSlide .appSilder img {
+  }
+  .appSlide .cover {
+    top: -59px;
+    left: 48%;
+  }
+  .appSlide .cover img {
+    width: 100% !important;
+  }
+  .projectGallery .portfolioGallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 479px) {
+}

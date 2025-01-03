@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="512" viewBox="0 0 392 512">
+  <g id="headOffice" transform="translate(-60)">
+    <g id="Group_487" data-name="Group 487">
+      <g id="Group_486" data-name="Group 486">
+        <path id="Path_73" data-name="Path 73" d="M256,0C147.925,0,60,87.925,60,196A195.366,195.366,0,0,0,99.826,314.445L247.484,512h17.031L412.174,314.446A195.367,195.367,0,0,0,452,196C452,87.925,364.075,0,256,0Zm0,261a65,65,0,1,1,65-65A65.074,65.074,0,0,1,256,261Z" fill="#42c21d"/>
+      </g>
+    </g>
+  </g>
+</svg>
